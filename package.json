@@ -1,7 +1,32 @@
 {
-  "name": "root",
-  "private": true,
-  "devDependencies": {
-    "lerna": "^3.20.2"
-  }
+	"name": "root",
+	"private": true,
+	"workspaces": {
+		"packages": [
+			"packages/*"
+		],
+		"nohoist": [
+			"**/react-native",
+			"**/react-native/**"
+		]
+	},
+	"devDependencies": {
+		"lerna": "^3.20.2"
+	},
+	"version": "1.0.0",
+	"scripts": {
+		"desktop-dev": "lerna run electron-dev"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/pulkitbhardwaj/video-chat-app.git"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/pulkitbhardwaj/video-chat-app/issues"
+	},
+	"homepage": "https://github.com/pulkitbhardwaj/video-chat-app#readme",
+	"description": ""
 }
