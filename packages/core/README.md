@@ -1,11 +1,11 @@
-# `theme`
+# `core`
 
 > TODO: description
 
 ## Usage
 
 ```
-import { colors } from '@incroy/theme';
+const core = require('core');
 
 // TODO: DEMONSTRATE API
 ```

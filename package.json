@@ -4,10 +4,6 @@
 	"workspaces": {
 		"packages": [
 			"packages/*"
-		],
-		"nohoist": [
-			"**/react-native",
-			"**/react-native/**"
 		]
 	},
 	"devDependencies": {
@@ -15,7 +11,8 @@
 	},
 	"version": "1.0.0",
 	"scripts": {
-		"desktop-dev": "lerna run electron-dev"
+		"desktop-dev": "lerna run electron-dev",
+		"build-packages": "lerna run pack"
 	},
 	"repository": {
 		"type": "git",

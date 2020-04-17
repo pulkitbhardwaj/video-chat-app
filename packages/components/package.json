@@ -1,10 +1,10 @@
 {
-	"name": "@incroy/theme",
+	"name": "@incroy/components",
 	"version": "1.0.0",
 	"description": "Now I’m the model of a modern major general / The venerated Virginian veteran whose men are all / Lining up, to put me up on a pedestal / Writin’ letters to relatives / Embellishin’ my elegance and eloquence / But the elephant is in the room / The truth is in ya face when ya hear the British cannons go / BOOM",
 	"keywords": [],
 	"author": "Pulkit Bhardwaj <pulkitbhardwaj1994@gmail.com>",
-	"homepage": "https://github.com/pulkitbhardwaj/video-chat-app/tree/master/packages/theme#readme",
+	"homepage": "https://github.com/pulkitbhardwaj/video-chat-app/tree/master/packages/components#readme",
 	"license": "ISC",
 	"main": "lib/index.js",
 	"directories": {
@@ -25,9 +25,13 @@
 		"url": "https://github.com/pulkitbhardwaj/video-chat-app/issues"
 	},
 	"dependencies": {
+		"react": "^16.13.1",
+		"react-art": "^16.13.1",
 		"react-native": "0.62.2"
 	},
 	"peerDependencies": {
+		"react": ">=16.13.1",
+		"react-art": "^16.13.1",
 		"react-native": ">=0.62.2"
 	},
 	"devDependencies": {

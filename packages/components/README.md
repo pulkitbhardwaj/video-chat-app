@@ -1,11 +1,11 @@
-# `theme`
+# `components`
 
 > TODO: description
 
 ## Usage
 
 ```
-import { colors } from '@incroy/theme';
+import { Button } from '@incroy/components';
 
 // TODO: DEMONSTRATE API
 ```
