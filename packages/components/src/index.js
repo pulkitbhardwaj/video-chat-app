@@ -1,6 +1,6 @@
 import { StyleSheet, Text, View } from 'react-native'
 
-export const App = () => {
+const App = () => {
 	return (
 		<View style={styles.box}>
 			<Text style={styles.text}>Hello, world!</Text>
@@ -12,3 +12,5 @@ const styles = StyleSheet.create({
 	box: { padding: 10 },
 	text: { fontWeight: 'bold' }
 })
+
+export default App

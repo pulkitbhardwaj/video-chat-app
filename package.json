@@ -12,7 +12,7 @@
 	"version": "1.0.0",
 	"scripts": {
 		"desktop-dev": "lerna run electron-dev",
-		"build-packages": "lerna run pack"
+		"build": "lerna run pack"
 	},
 	"repository": {
 		"type": "git",

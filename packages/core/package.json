@@ -1,5 +1,5 @@
 {
-	"name": "core",
+	"name": "@incroy/core",
 	"version": "1.0.0",
 	"description": "Now I’m the model of a modern major general / The venerated Virginian veteran whose men are all / Lining up, to put me up on a pedestal / Writin’ letters to relatives / Embellishin’ my elegance and eloquence / But the elephant is in the room / The truth is in ya face when ya hear the British cannons go / BOOM",
 	"keywords": [],
@@ -28,6 +28,7 @@
 		"@babel/cli": "^7.8.4",
 		"@babel/core": "^7.2.2",
 		"@babel/preset-env": "^7.3.1",
-		"@babel/preset-react": "^7.9.4"
+		"@babel/preset-react": "^7.9.4",
+		"babel-preset-minify": "^0.5.1"
 	}
 }

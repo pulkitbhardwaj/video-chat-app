@@ -6,20 +6,20 @@
 	"author": "Pulkit Bhardwaj <pulkitbhardwaj1994@gmail.com>",
 	"homepage": "https://github.com/pulkitbhardwaj/video-chat-app/tree/master/packages/components#readme",
 	"license": "ISC",
-	"main": "lib/index.js",
+	"main": "dist/index.js",
 	"directories": {
-		"lib": "lib",
+		"dist": "dist",
 		"test": "__tests__"
 	},
 	"files": [
-		"lib"
+		"dist"
 	],
 	"repository": {
 		"type": "git",
 		"url": "git+https://github.com/pulkitbhardwaj/video-chat-app.git"
 	},
 	"scripts": {
-		"pack": "./node_modules/.bin/babel src --out-dir lib"
+		"pack": "./node_modules/.bin/babel src --out-dir dist"
 	},
 	"bugs": {
 		"url": "https://github.com/pulkitbhardwaj/video-chat-app/issues"
