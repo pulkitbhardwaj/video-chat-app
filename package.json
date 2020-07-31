@@ -11,8 +11,15 @@
 	},
 	"version": "1.0.0",
 	"scripts": {
-		"desktop-dev": "lerna run electron-dev",
-		"build": "lerna run pack"
+		"clean": "lerna clean",
+		"bootstrap": "lerna bootstrap",
+		"dev:ios": "lerna run ios --scope=@incroy/mobile",
+		"dev:android": "lerna run android --scope=@incroy/mobile",
+		"dev:mobile": "lerna run start --scope=@incroy/mobile",
+		"dev:desktop": "lerna run electron-dev --scope=@incroy/desktop",
+		"dev:web": "lerna run start --scope=@incroy/desktop",
+		"test": "lerna run test",
+		"compile": "lerna run compile"
 	},
 	"repository": {
 		"type": "git",
